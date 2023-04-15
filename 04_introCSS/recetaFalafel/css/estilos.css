@@ -1,0 +1,17 @@
+body{
+    background: tomato;
+    color:white;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+h3{
+    color: blue;
+}
+p{
+    font-size: 20px;
+}
+img{
+    width: 100%;
+}
