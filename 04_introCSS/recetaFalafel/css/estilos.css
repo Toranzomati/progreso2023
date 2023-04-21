@@ -1,17 +1,76 @@
+/* selector universal todopoderoso en css
+le pega a todas las etiquetas o sea a todo lo que esta en dicho estilo
+empieza con un asterisco*/
+*{
+    margin: 0%;/* el espaciado externo del elemento */
+    padding:0%;/* el espaciado interno del elemento */
+}
+
+
+
+/* selectores de etiqueta */
 body{
-    background: tomato;
-    color:white;
+    background:tomato;
+    color: white;
+    font-family: Arial, sans-serif;
 }
 h1{
     text-align: center;
     color: black;
 }
 h3{
-    color: blue;
+    color:black;
 }
 p{
-    font-size: 20px;
+    font-size: 18px;
 }
 img{
     width: 100%;
+}
+
+
+/* selector de clase se define comenzando con el punto */
+.parrafoprincipal{
+   font-size: 20px;
+   border-left: 2px black dotted;
+   border-right: 2px black dotted;
+}
+.fontgeorgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:blue;
+} 
+
+
+
+/* selector de ID se define con el simbolo de numeral*/
+#header{
+    border:3px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+/*maqueta*/
+#contenedor{
+    width: 80%;/* 80% del area visible->viewport */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*
+box model-modelo de caja
+top----arriba
+bottom----abajo
+left----izquierda
+right----derecha
+margin/padding/border->cuatro lados 
+ */
+
+.principal{
+    padding: 20px;
+    margin-top: 20px;
+}
+.ingredientes{
+    padding: 20px;
+}
+.eleboracion{
+    padding: 20px;
 }

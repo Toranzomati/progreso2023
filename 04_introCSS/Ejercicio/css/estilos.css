@@ -1,0 +1,60 @@
+/* reset css */
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* contenedor */
+
+#contenedor{
+    width:80%;
+    max-width: 1100px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border: 2px black solid;
+
+}
+
+/* header */
+.header{
+    text-align:center;
+}
+
+/* contenido */
+.contenido{
+    background: rgb(121,121,121);
+    color: white;
+    padding: 15px;
+}
+
+p{
+    margin-bottom: 10px 0;
+}
+.principal{
+    font-weight: bold;
+}
+
+/* footer */
+.footer{
+    text-align: right;
+    background-image: url("../img/banner1.jpg");
+    height: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
