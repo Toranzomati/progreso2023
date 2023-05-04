@@ -28,7 +28,7 @@ html{
 
 /* contenido */
 .contenido{
-    background: rgb(121,121,121);
+    background: red;
     color: white;
     padding: 15px;
 }

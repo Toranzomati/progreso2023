@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0}
+body{
+	font-family: "Arial", sans-serif;
+	font-size: 16px;
+}
+.content{
+	width: 80%;
+	margin: 0 auto;
+	border:solid;
+	background: violet;
+	padding:20px;
+	float:right;
+}
+
+/*CSS -> dos tipos elementos
+				-> Bloque (div, header, form, section, ul, li, etc)
+					tienen ordenamiento de lectura vertical
+				-> Linea (a, img, span, etc)
+				tienen ordenamiento de lectura horizontal
+*/
+/*selectores agrupados -> usando la coma ","*/
+.caja1,.caja2,.caja3{
+	border: 1px solid grey;
+	background: lightblue;
+	width: 30%;
+	height: 100px;
+}
+/* float: left/right + clear:left/rigth/both */
+.caja1{float:right; }
+.caja2{float:right; }
+.caja3{float:right; }
+
+.limpiarFloat{
+	clear: both;
+}
+
+.pie{
+	clear: both;
+}
